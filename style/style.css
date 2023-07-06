@@ -12,11 +12,31 @@
     --col-back-buttons: #4a4a4a;
 }
 
+/* fine regole comuni */
+
+/* utilities */
+
 .flex {
     display: flex;
 }
 
-/* fine regole comuni */
+.container {
+    width: 90%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+
+
+
 
 /* debug */
 nav {
@@ -29,6 +49,16 @@ nav {
     height: 40px;
     width: 40px;
 }
+
+.container {
+    background-color: red;
+}
+
+.main_col {
+    height: 200px;
+    background-color: blue;
+}
+
 
 
 
@@ -43,6 +73,13 @@ nav {
  .card_nav {
     background-color: var(--col-back-buttons);
     margin-left: 5px;
+}
+
+/* main*/
+
+.main_col {
+    width: calc(100% / 7 - 5px);
+    margin-top: 5px;
 }
 
 
