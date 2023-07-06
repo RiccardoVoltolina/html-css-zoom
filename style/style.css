@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --col-back-header: #;
+    --col-allert: #;
+    --col-success: #;
+    --col-buttons: #;
+    --col-back-buttons: #;
+}
+
+/* fine regole comuni */
