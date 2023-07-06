@@ -136,14 +136,20 @@ nav {
 }
 
 .audio_video {
-    
+    background-color: blue;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
 
 .cam_and_microphone {
     color: var(--col-buttons);
     padding-left: 5px;
     width: 100%;
-    padding-top: 8px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .microphone_footer {
@@ -153,6 +159,8 @@ nav {
 .mute_footer {
     font-size: 10px;
 }
+
+/* right footer section */
 
 .card_end_meeting {
     height: 100%;
