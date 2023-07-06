@@ -143,8 +143,12 @@ nav {
 
 .row_cam_and_microphone {
     color: var(--col-buttons);
-    width: calc(100% / 2);
+    width: 50%;
     background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 70px;
 }
 
 .cam_and_microphone {
@@ -152,11 +156,27 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 
 .mute_footer {
     font-size: 10px;
+    position: absolute;
+    left: -5px;
+    bottom: 0;
+}
+
+.stop_video {
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: -12px;
+
+}
+
+.col_left_footer {
+    width: calc(100% / 4);
 }
 
 /* right footer section */
