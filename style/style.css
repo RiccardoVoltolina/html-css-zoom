@@ -45,10 +45,6 @@ nav {
 }
 
 
-.card_nav {
-    height: 40px;
-    width: 40px;
-}
 
 .container {
     background-color: red;
@@ -84,6 +80,13 @@ nav {
  .card_nav {
     background-color: var(--col-back-buttons);
     margin-left: 5px;
+    color: var(--col-buttons);
+    padding: 5px;
+}
+
+.card_nav a {
+    text-decoration: none;
+    color: var(--col-buttons);
 }
 
 /* main*/
