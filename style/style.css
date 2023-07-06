@@ -5,11 +5,45 @@
 }
 
 :root {
-    --col-back-header: #;
-    --col-allert: #;
-    --col-success: #;
-    --col-buttons: #;
-    --col-back-buttons: #;
+    --col-back-header: #222222;
+    --col-allert: #fe020c;
+    --col-success: #49ca00;
+    --col-buttons: #fefffe;
+    --col-back-buttons: #4a4a4a;
+}
+
+.flex {
+    display: flex;
 }
 
 /* fine regole comuni */
+
+/* debug */
+nav {
+    height:100px ;
+    background-color: black;
+}
+
+
+.card_nav {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+/* header */
+
+nav {
+    justify-content: end;
+    align-items: center;
+}
+
+
+ .card_nav {
+    background-color: var(--col-back-buttons);
+    margin-left: 5px;
+}
+
+
+ 
