@@ -59,6 +59,17 @@ nav {
     background-color: blue;
 }
 
+.container_footer {
+    height: 150px;
+    background-color: black;
+}
+
+.col_footer {
+    height: 50px;
+    background-color: red;
+    border: 1px solid white;
+}
+
 
 
 
@@ -82,5 +93,15 @@ nav {
     margin-top: 5px;
 }
 
+/* footer */
+
+.container_footer {
+    justify-content: center;
+    align-items: center;
+}
+
+.col_footer {
+    width: calc(100% / 3);
+}
 
  
