@@ -20,182 +20,110 @@
     display: flex;
 }
 
-.container {
-    width: 90%;
-    max-width: 1170px;
-    margin: auto;
-}
 
 .wrap {
     flex-wrap: wrap;
 }
 
-.justify {
-    justify-content: space-between;
-}
 
 .relative {
     position: relative;
 }
 
 .column {
-    display: flex;
     flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
-
-
-
-
-/* debug */
-
-
-
-.container {
-    background-color: red;
+.margin_10 {
+    margin: 0 10px;
 }
-
-.main_col {
-    height: 150px;
-    background-color: blue;
-}
-
-.container_footer {
-    height: 150px;
-    background-color: black;
-}
-
-.col_footer {
-    height: 50px;
-    background-color: red;
-    border: 1px solid white;
-}
-
-
-
 
 /* header */
 
+
+
 header {
+    background-color: var(--col-back-header);
+    height: 40px;
+}
+
+.buttons {
+    text-align: end;
+}
+
+.buttons > button {
+    background-color: var(--col-back-buttons);
+    border: none;
+    color: var(--col-buttons);
+    padding: 5px;
+    border-radius: 10%;
+}
+
+/* end header */
+
+/* main */
+
+
+main {
+    background-color: red;
+    height: calc(100vh - 120px);
+    max-width: 1170px;
+    margin: auto;
+    overflow-y: auto;
+}
+
+.main_container {
+    gap: 5px;
+    justify-content: center;
+}
+
+.card {
+    background-color: blue;
+    height: 140px;
+    width: 240px;
+}
+
+.avatar_name {
+    background-color: rgba(0, 0, 0, 0.216);
+    color: var(--col-buttons);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3px;
+}
+
+/* end main */
+
+/* start footer */
+
+footer {
+    height: 80px;
     background-color: var(--col-back-header);
 }
 
-nav {
-    justify-content: end;
-    align-items: center;
-    height: 80px;
-}
-
-
- .card_nav {
-    background-color: var(--col-back-buttons);
-    margin-left: 5px;
-    color: var(--col-buttons);
-    padding: 5px;
-}
-
-.card_nav a {
-    text-decoration: none;
-    color: var(--col-buttons);
-}
-
-/* main*/
-
-.main_col {
-    width: calc(100% / 7 - 5px);
-    margin-top: 5px;
-    background-image: url(https://picsum.photos/id/11/367/267);
-    background-size: cover;
-}
-
-.avatar_card {
-    position: absolute;
-    bottom: 5px;
-}
-
-.microphone, .avatar_name {
-    background-color: rgba(128, 128, 128, 0.489);
-    color: var(--col-buttons);
-    padding: 5px;
-}
-
-.microphone {
-    margin-right: 3px;
-}
-
-
-/* footer */
-
 .container_footer {
-    justify-content: center;
+    height: 100%;
     align-items: center;
 }
 
-.col_footer {
+
+.col {
+    background-color: blue;
     width: calc(100% / 3);
-}
-
-.audio_video {
-    background-color: blue;
-    height: 100%;
-    display: flex;
-}
-
-.row_cam_and_microphone {
-    color: var(--col-buttons);
-    width: 50%;
-    background-color: black;
+    border: 1px solid white;
     align-items: center;
-    justify-content: space-evenly;
-    padding-left: 20px;
-    padding-right: 70px;
-}
-
-.cam_and_microphone {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
+    color: var(--col-buttons);
 }
 
 
-.mute_footer {
-    font-size: 10px;
-    position: absolute;
-    left: -5px;
-    bottom: 0;
-}
-
-.stop_video {
-    font-size: 10px;
-    position: absolute;
-    bottom: 0;
-    left: -12px;
-
-}
-
-.col_left_footer {
-    width: calc(100% / 4);
-}
-
-/* right footer section */
-
-.card_end_meeting {
-    height: 100%;
-    background-color: blue;
-    text-align: end;
-    padding: 1px;
-
-}
 
 
-.end_meeting {
-    background-color: var(--col-back-buttons);
-    color: var(--col-allert);
-    position: absolute;
-    right: 0;
-    padding: 14px 15px;
-}
 
- 
+
+
+
+
+
+
