@@ -40,6 +40,10 @@
     margin: 0 10px;
 }
 
+.space_evenly {
+    justify-content: space-evenly;
+}
+
 /* header */
 
 
@@ -109,12 +113,36 @@ footer {
 }
 
 
+
 .col {
     background-color: blue;
-    width: calc(100% / 3);
     border: 1px solid white;
     align-items: center;
     color: var(--col-buttons);
+}
+
+
+
+
+.small_col_left, .small_col_right {
+    width: 25%;
+}
+
+.big_col {
+    width: 50%;
+}
+
+.small_col_right {
+    justify-content: end;
+}
+
+
+
+.footer_button {
+    border: none;
+    padding: 30px;
+    background-color: var(--col-back-buttons);
+    color: var(--col-allert);
 }
 
 
