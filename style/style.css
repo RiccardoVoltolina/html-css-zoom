@@ -44,12 +44,15 @@
     justify-content: space-evenly;
 }
 
+
+body {
+    background-color: black;
+}
 /* header */
 
 
 
 header {
-    background-color: var(--col-back-header);
     height: 40px;
 }
 
@@ -71,22 +74,16 @@ header {
 
 
 main {
-    background-color: red;
     height: calc(100vh - 120px);
-    max-width: 1170px;
-    margin: auto;
     overflow-y: auto;
 }
 
 .main_container {
-    gap: 5px;
     justify-content: center;
 }
 
 .card {
-    background-color: blue;
-    height: 140px;
-    width: 240px;
+    margin: 3px;
 }
 
 .avatar_name {
@@ -115,17 +112,21 @@ footer {
 
 
 .col {
-    background-color: blue;
-    border: 1px solid white;
     align-items: center;
     color: var(--col-buttons);
 }
 
-
+footer i {
+    font-size: 25px;
+}
 
 
 .small_col_left, .small_col_right {
     width: 25%;
+}
+
+.green {
+    color: var(--col-success);
 }
 
 .big_col {
