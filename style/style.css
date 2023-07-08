@@ -125,6 +125,10 @@ footer i {
     width: 25%;
 }
 
+.small_col_left {
+    margin-left: 10px;
+}
+
 .green {
     color: var(--col-success);
 }
@@ -144,6 +148,7 @@ footer i {
     padding: 30px;
     background-color: var(--col-back-buttons);
     color: var(--col-allert);
+    font-size: 15px;
 }
 
 
